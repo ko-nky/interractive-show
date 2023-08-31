@@ -1,7 +1,7 @@
 # Geotiff やGeoJSONをマップ上にオーバーレイして座標をインタラクティブに表示するスクリプト
 以下のコードをGoogle Colabにコピー&ペーストして実行する。
 ```
-!pip install "holoviews==1.15.1"  "rioxarray==0.9.1" "datashader==0.14.2" "geopandas" -q
+!pip install "holoviews==1.16"  "rioxarray==0.9.1" "datashader==0.14.2" "geopandas" -q
 import holoviews as hv
 import holoviews.operation.datashader as hd
 import bokeh as bk
